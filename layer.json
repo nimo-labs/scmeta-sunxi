@@ -7,7 +7,7 @@
 	  "silver_link"
 	], 
 	"LayerDeps": [],
-	"Script": "main.scl"
+	"Script": "main.scl",
 	"Host Dependencies": 
 	[
 	    "swig",
