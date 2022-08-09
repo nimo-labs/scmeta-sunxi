@@ -1,1 +1,5 @@
+HOST_CMD git clone git://git.denx.de/u-boot.git
+HOST_WORKDIR u-boot
 
+HOST_CMD make CROSS_COMPILE=arm-linux-gnueabihf- nanopi_neo_air_defconfig
+HOST_CMD make CROSS_COMPILE=arm-linux-gnueabihf- 
