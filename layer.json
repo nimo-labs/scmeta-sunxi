@@ -1,0 +1,12 @@
+{
+	"Layer": {
+    "Name": "scmeta-sunxi",
+		"Supports Versions": 
+    [
+      "silver_link"
+    ], 
+		"LayerDeps": [
+		],
+    "Script": "main.scl"
+	}
+}
