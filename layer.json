@@ -1,12 +1,30 @@
 {
-	"Layer": {
-    "Name": "scmeta-sunxi",
-		"Supports Versions": 
-    [
-      "silver_link"
-    ], 
-		"LayerDeps": [
-		],
-    "Script": "main.scl"
-	}
+    "Layer": 
+    {
+        "Name": "scmeta-sunxi",
+	"Supports Versions": 
+	[
+	  "silver_link"
+	], 
+	"LayerDeps": [],
+	"Script": "main.scl"
+	"Host Dependencies": 
+	[
+	    "swig",
+            "git",
+            "python3-dev",
+            "python3",
+            "gcc-arm-linux-gnueabihf",
+            "build-essential",
+            "bison",
+            "flex",
+            "bc",
+            "libncurses5-dev",
+            "lzop",
+            "perl",
+            "libssl-dev",
+            "wget",
+            "python3-setuptools"
+	]
+    }
 }
